@@ -1,0 +1,46 @@
+body{
+background-color: black;
+font-family:fonte ;
+}
+
+@font-face {
+    font-family: fonte;
+    src: url(../fontes/Vollkorn-Italic-VariableFont_wght.ttf );
+}
+
+.titulo {
+font-size: 35px;
+    margin:10px ;
+}
+.card{
+
+    width:400px ;
+    height: 200px;
+    padding: 1px 20px ;
+    background: url(../__MACOSX/fundo.png) no-repeat ;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.Instagram {
+  
+    list-style-image:url( ../__MACOSX/insta.png)
+}
+
+.Twitter {
+
+    list-style-image: url( ../__MACOSX/Twitter.png);
+}
+
+.wapp {
+
+list-style-image: url(../__MACOSX/wapp.jpg)
+
+}
